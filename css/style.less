@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+}
+
+
+body {
+    background-color: #1E2A42;
+    color: #fff;
+}
+
+.main-wrapper{
+    width: 80%;
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+
+.time-config{
+    .ui-control{
+        display: inline-block;
+        width: 50%;
+        padding: 10px 2%;
+        text-align: center;
+        
+        h3{
+            position: relative;
+            top: 8px;
+            padding: 0 3%;
+            display: inline-block;
+            font-size: 3rem;
+            font-weight: 400;
+        }
+        
+        button.circle-button{
+            background-color: transparent;
+            color: #fff;
+            height: 1.6rem;
+            width: 1.6rem;
+            line-height: 1.6rem;
+            border: 1px solid #FFF;
+            border-radius: 0.8rem;
+            cursor: pointer;
+        }
+        
+    }
+}
+
+.timer-display {
+    text-align: center;
+    
+    p#timer {
+        font-size: 5rem;
+        font-weight: 200;
+    }
+}
+
+.timer-controls{
+    text-align: center;
+    
+    i{
+        cursor: pointer;
+        margin: 0.2%;
+        transtion: 0.1s ease-in all;
+        
+        &:hover{
+            color: aquamarine;
+        }
+    }
+    
+}

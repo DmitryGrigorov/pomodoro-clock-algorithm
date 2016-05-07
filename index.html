@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>pomodoro clock</title>
+    <link rel="stylesheet/less" href="css/style.less">
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+    <script src="bower_components/less/dist/less.min.js"></script>
+    <script src="js/app.js"></script>
+</head>
+<body>
+    <div class="main-wrapper">
+        <div class="time-config">
+            <div class="ui-control">
+                <button id="pomodoro-time-down" class="circle-button" type="button">
+                    <i class="fa fa-minus"></i>
+                </button>
+                
+                <h3 id="pomodoro-time">25</h3>
+                
+                <button id="pomodoro-time-up" class="circle-button" type="button">
+                    <i class="fa fa-plus"></i>
+                </button>
+            </div>
+            
+            <div class="ui-control">
+                <button id="break-time-down" class="circle-button" type="button">
+                    <i class="fa fa-minus"></i>
+                </button>
+                
+                <h3 id="break-time">5</h3>
+                
+                <button id="break-time-up" class="circle-button" type="button">
+                    <i class="fa fa-plus"></i>
+                </button>
+            </div>
+            
+            <div class="timer-display">
+                <p id="timer">00:25:00</p>
+                <p id="message-display">Click on play to start</p>
+            </div>
+            
+            <div class="timer-controls">
+                <i class="fa fa-lg fa-play" id="start"></i>
+                <i class="fa fa-lg fa-pause" id="pause"></i>
+                <i class="fa fa-lg fa-ban" id="reset"></i>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
